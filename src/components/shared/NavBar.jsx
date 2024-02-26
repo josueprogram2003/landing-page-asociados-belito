@@ -13,9 +13,9 @@ const NavBar = () => {
           <Nav className="me-auto">
             <Link to="inicio" className="text-white mx-3 link-effect p-2"><span>Inicio</span></Link>
             <Link to="nosotros" className="text-white mx-3 link-effect p-2"><span>Nosotros</span></Link>
-            <Nav.Link href="#link" className="text-white mx-3 link-effect"><span>Visión y Misión</span></Nav.Link>
-            <Nav.Link href="#link" className="text-white mx-3 link-effect"><span>Servicios</span></Nav.Link>
-            <Nav.Link href="#link" className="text-white mx-3 link-effect"><span>Contacto</span></Nav.Link>
+            <Link to="vision-mision" className="text-white mx-3 link-effect p-2"><span>Visión y Misión</span></Link>
+            <Link to="servicio" className="text-white mx-3 link-effect p-2"><span>Servicios</span></Link>
+            <Link to="contacto" className="text-white mx-3 link-effect p-2"><span>Contacto</span></Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
