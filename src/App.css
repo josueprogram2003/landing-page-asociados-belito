@@ -2,6 +2,10 @@
   position: relative;
 }
 
+.color-primary{
+  color: #2C3941;
+}
+
 .text-customise{
   color: #2B3F48;
 }
@@ -42,6 +46,22 @@ input[type="submit"]{
   background-color: #AA8646;
 }
 
+.nosotros-effect{
+  position: relative;
+  height: 100vh;
+}
+
+.nosotros-effect::after{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: .7;
+}
+
 picture.wall{
   position: absolute;
   top: 0;
@@ -51,7 +71,7 @@ picture.wall{
   z-index: -1;
 }
 
-picture.wall::after{
+picture.wall::after {
   content: "";
   position: absolute;
   top: 0;
@@ -66,6 +86,7 @@ picture.wall::after{
 img{
   width: 100%;
   height: 100%;
+  object-fit: cover;
 }
 
 .title--golden{
@@ -200,6 +221,16 @@ img{
   background-color: #2B3F48;
 }
 
+.circle-nosotros{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  background-color: #DFEAEE;
+}
+
 .describe > span{
   color: #2B3F48;
 }
@@ -221,3 +252,96 @@ img{
 .contact__form{
   width: 40%;
 }
+
+.card-nosotros{
+  position: relative;
+  width: 100%;
+  height: 200px !important;
+}
+
+.card-nosotros::after{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #364A54;
+  opacity: .7;
+}
+
+.container-mame{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  z-index: 3;
+}
+
+.container-button{
+  background-color: #fff;
+  z-index: 5;
+  height: 100%;
+  overflow: hidden;
+  /* display: none; */
+  transform: translateX(100%);
+  position: absolute;
+  transition: all .5s ease-in-out;
+  top: 0;
+  right: 0;
+}
+
+.container-mame:hover .container-button{
+  display: block;
+  transition: all .5s ease-in-out;
+  transform: translateX(0%);
+}
+
+button.btn-viewService{
+  cursor: pointer;
+  border-radius: 10px;
+  width: 50%;
+  background-color: #9ABCC6;
+  padding: 10px;
+  outline: none;
+  border: none;
+}
+
+.container-asesoria{
+  background-color:#2C3941 ;
+  /* transform: translateY(-250px); */
+}
+
+.title-asesoria{
+  position: relative;
+  letter-spacing: 3px;
+  font-style: italic;
+}
+
+.title-asesoria::before{
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  height: 0;
+  width: 280px;
+  height: 5px;
+  background-color: #98722E;
+}
+
+.curve{
+  transform: translateY(40px);
+}
+
+.card-asesoria{
+  padding-bottom: 7rem;
+}
+
+.card-asesoria > div{
+  border-radius: 10px;
+}
+/* ----- */

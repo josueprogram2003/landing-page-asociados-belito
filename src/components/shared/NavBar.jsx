@@ -3,7 +3,7 @@ import logo from  '../../assets/logo.png'
 import { Link } from "react-router-dom"
 const NavBar = () => {
   return (
-    <Navbar expand="lg" className="bg-navbar  rounded shadow-lg d-flex justify-content-around position-absolute " style={{top:"10%", left:"8%", width:"85%", zIndex:"2"}}>
+    <Navbar expand="lg" className="bg-navbar  rounded shadow-lg d-flex justify-content-around position-absolute " style={{top:"10%", left:"8%", width:"85%", zIndex:"10"}}>
       <picture className="logo-brand ms-5">
         <img src={logo} alt="" />
       </picture>
