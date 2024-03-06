@@ -663,9 +663,6 @@ img{
     margin-top: 4rem;
   }
   
-  .nosotros-effect{
-    height: 120vh;
-  }
 }
 
 @media screen and (min-width: 400px) and (max-width: 495px) {
@@ -698,10 +695,6 @@ img{
     margin-top: 30px;
     width: 100%;
   }
-
-  .nosotros-effect{
-    height: 130vh;
-  } 
 
   .main-inicio{
     margin-top: 5rem;
@@ -744,10 +737,6 @@ img{
     margin-top: 30px;
     width: 100%;
   }
-
-  .nosotros-effect{
-    height: 170vh;
-  } 
 
   .main-inicio{
     margin-top: 5rem;
@@ -793,9 +782,6 @@ img{
     margin-top: 5rem;
   }
 
-  .nosotros-effect{
-    height: 140vh;
-  }
 }
 
 @media screen and (min-width: 901px) and (max-width: 1500px) {

@@ -27,7 +27,7 @@ const CardWall = () => {
           </picture>
         </footer>
       </section>
-      <section className="bg-white p-4 rounded card-wall shadow mx-4" data-aos="fade-up">
+      <section className="bg-white p-4 rounded card-wall shadow mx-lg-4 mx-0" data-aos="fade-up">
         <header className="d-flex justify-content-between">
           <p className="fw-bold fs-5">Misión</p>
           <picture>

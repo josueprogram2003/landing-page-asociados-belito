@@ -3,7 +3,7 @@ import ida from '../../assets/ida.png'
 const HeaderNosotros = () => {
   return (
   <div className="justify-content-around row align-items-center h-auto " style={{position:"relative" , zIndex:"9" , paddingTop:"150px", paddingBottom:"20px", marginRight:"0px"}}> 
-    <div className='col-lg-5'>
+    <div className='col-lg-5 p-5'>
       <div className="px-3 py-4 border-golden mt-lg-0">
         <header>
           <h1 className="text-white text-uppercase fw-bold">Estudio Jurídico</h1>
