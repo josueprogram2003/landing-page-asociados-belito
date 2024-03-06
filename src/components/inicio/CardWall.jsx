@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 
 const CardWall = () => {
   return (
-    <div className="d-flex flex-column flex-lg-row justify-content-center container-card-wall px-4 px-lg-0">
+    <div className="d-flex flex-column flex-lg-row justify-content-center container-card-wall px-4 px-lg-5" style={{position:"relative", zIndex:"9"}}>
       <section className="bg-white p-4 p-lg-4 rounded card-wall shadow" data-aos="fade-up">
         <header className="d-flex justify-content-between">
           <p className="fw-bold fs-5">Nosotros</p>
@@ -27,7 +27,7 @@ const CardWall = () => {
           </picture>
         </footer>
       </section>
-      <section className="bg-white p-4 rounded card-wall shadow" data-aos="fade-up">
+      <section className="bg-white p-4 rounded card-wall shadow mx-4" data-aos="fade-up">
         <header className="d-flex justify-content-between">
           <p className="fw-bold fs-5">Misión</p>
           <picture>

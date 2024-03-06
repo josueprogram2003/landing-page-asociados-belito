@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 
 const Header = () => {
   return (
-    <div className="d-flex flex-column" style={{marginTop:"140px"}}> 
+    <div className="d-flex flex-column  juridico" > 
       <div className="px-3 py-4 border-golden">
         <header className="pe-5">
           <h1 className="text-white text-uppercase fw-bold">Estudio Jurídico</h1>

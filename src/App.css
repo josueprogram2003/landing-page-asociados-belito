@@ -82,8 +82,12 @@ button[type="button"]{
 
 
 .nosotros-effect{
+  background-image: url('./assets/wallpaper.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
   position: relative;
-  height: 100vh;
+  min-height: 100vh !important;
+  max-height: auto !important;
 }
 
 .nosotros-effect::after{
@@ -93,13 +97,18 @@ button[type="button"]{
   left: 0;
   height: 100%;
   width: 100%;
+  z-index: 1;
   background-color: black;
   opacity: .7;
 }
 
 div.wall{
+  background-image: url('./assets/wallpaper.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
   position: relative;
-  height: 133vh;
+  min-height: 133vh ;
+  max-height: auto;
   width: 100%;
 }
 
@@ -150,12 +159,12 @@ img{
 
 .container-card-wall{
   margin-top: 80px;
+  top: 100px;
 }
 
 .card-wall{
   position: relative;
   width: 30%;
-  margin: 0px 3%;
 }
 
 .describe-card{
@@ -279,6 +288,8 @@ img{
 }
 
 .contact__image{
+  height: 100%;
+  object-fit: cover;
   width: 60%;
 }
 
@@ -502,6 +513,10 @@ img{
   background-image: url('./assets/mision.jpeg');
 }
 
+.juridico{
+  padding-left: 8%;
+}
+
 .vision::after, .mision::after{
   position: absolute;
   content: "";
@@ -598,6 +613,10 @@ img{
 
 @media screen and ((max-width :399px ) and (min-height: 700px)) {
 
+  .container-card-wall{
+    top: 0;
+  }
+
   .container-rounded-nosotros{
     display: flex;
     align-items: end;
@@ -631,9 +650,6 @@ img{
     width: 100%;
   }
 
-  div.wall{
-    height: 280vh;
-  }
 
   .container-card-wall{
     margin-top: 3rem;
@@ -658,7 +674,7 @@ img{
   }
 
   .container-card-wall{
-    margin-top: 3rem;
+    margin-top: 0;
   }
 
   .container-maps{
@@ -668,10 +684,6 @@ img{
   
   .card-wall{
     margin-left: 0px;
-  }
-
-  div.wall{
-    height: 230vh;
   }
 
   .contact__form{
@@ -706,6 +718,11 @@ img{
     margin-top: 3rem;
   }
 
+  .container-card-wall{
+    top: 0;
+    padding-bottom: 50px;
+  }
+
   .container-maps{
     width: 300px;
     height: 200px;
@@ -713,10 +730,6 @@ img{
   
   .card-wall{
     margin-left: 0px;
-  }
-
-  div.wall{
-    height: 250vh;
   }
 
   .contact__form{
@@ -747,6 +760,11 @@ img{
     width: 100%;
   }
 
+  .container-card-wall{
+    padding-bottom: 50px;
+    top: 0;
+  }
+
   .contact__image{
     width: 100%;
   }
@@ -761,9 +779,6 @@ img{
     height: 300px;
   }
 
-  div.wall{
-    height: 220vh;
-  }
 
   .container-card-wall{
     margin-top: 3rem;
@@ -797,12 +812,9 @@ img{
     width: 100%;
   }
 
-  div.wall{
-    height: 135vh;
-  }
-
   .container-card-wall{
-    margin-top: 3rem;
+    top: 0;
+    padding-bottom: 70px;
   }
 
   .card-wall{
@@ -810,13 +822,5 @@ img{
     margin-left: 0px;
   }
 
-  .nosotros-effect{
-    height: 100vh;
-  } 
 }
 
-/* @media screen and (min-height: 540px) {
-  .nosotros-effect{
-    height: 115vh;
-  }  
-} */

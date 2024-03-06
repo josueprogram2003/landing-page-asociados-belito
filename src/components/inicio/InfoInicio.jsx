@@ -1,6 +1,6 @@
 const InfoInicio = () => {
   return (
-    <section className="d-flex info-inicio flex-column flex-md-row align-items-center ">
+    <section className="d-flex info-inicio flex-column flex-md-row align-items-center " style={{position:"relative", zIndex:"9"}}>
       <div className="w-100 w-lg-50 d-flex justify-content-around mb-5 mb-lg-0">
         <div className="d-flex flex-column align-items-center w-50">
           <picture className="mb-3">

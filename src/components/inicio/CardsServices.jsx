@@ -16,7 +16,6 @@ const CardsServices = () => {
       imagen: civil,
       descripcion: [
         {
-          desc1: '*Desalojo, mejor de propiedad.',
           desc2: '*Preescripción adquisitiva de dominio    notarial y judicial.',
           desc3: '*Resolución de contratos.',
           desc4: '*Indemnización por daños y prejuicios',
@@ -57,8 +56,7 @@ const CardsServices = () => {
         {
           desc1: '*Estudio de títulos archivados.',
           desc2: '*Subsanación de títulos observados.',
-          desc3: '*Presentación de formulariosregistrales.',
-          desc4: '*Diversas gestiones administrativas en Sunarp',
+          desc3: '*Diversas gestiones administrativas en Sunarp',
         }
       ]
     },
@@ -97,7 +95,7 @@ const CardsServices = () => {
           {
             data.map((data,index)=>{
             return(
-              <div key={index} className="m-xxl-5 m-sm-4  m-lg-5 mb-5 card-service shadow col-sm-8 col-md-5 col-lg-5 col-xl-4 col-xxl-3 p-0 " data-aos="zoom-in-down">
+              <div key={index} className="m-xxl-5 m-sm-4 m-xl-4  m-lg-5 mb-5 card-service shadow col-sm-8 col-md-5 col-lg-5 col-xl-3  col-xxl-3 p-0 " data-aos="zoom-in-down">
               <div className='card__image w-100 overflow-hidden h-50'>
                 <img src={data.imagen} alt="" />
               </div>
