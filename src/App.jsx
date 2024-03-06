@@ -5,11 +5,15 @@ import 'aos/dist/aos.css';
 import { useEffect } from 'react';
 import RouteLanding from './routers/RouteLanding';
 import { BrowserRouter } from 'react-router-dom';
+import emailjs from '@emailjs/browser';
 function App() {
 
   useEffect( ()=>{
     AOS.init()
   })
+  emailjs.init({
+    publicKey: 'b9QNRj47fN85cPldM',
+  });
 
   return (
     <>

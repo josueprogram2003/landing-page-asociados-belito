@@ -1,9 +1,10 @@
-import { Container, Nav, Navbar } from "react-bootstrap"
+import { Container, Nav, NavDropdown, Navbar } from "react-bootstrap"
 import logo from  '../../assets/logo.png'
 import { Link } from "react-router-dom"
 const NavBar = () => {
+
   return (
-    <Navbar expand="lg" className="bg-navbar  rounded shadow-lg d-flex justify-content-around position-absolute " style={{top:"10%", left:"8%", width:"85%", zIndex:"10"}}>
+    <Navbar expand="lg" className="bg-navbar  rounded shadow-lg d-flex justify-content-around position-absolute flex-row flex-nowrap" style={{top:"10%", left:"8%", width:"85%", zIndex:"10"}}>
       <picture className="logo-brand ms-5">
         <img src={logo} alt="" />
       </picture>
@@ -14,7 +15,14 @@ const NavBar = () => {
             <Link to="inicio" className="text-white mx-3 link-effect p-2"><span>Inicio</span></Link>
             <Link to="nosotros" className="text-white mx-3 link-effect p-2"><span>Nosotros</span></Link>
             <Link to="vision-mision" className="text-white mx-3 link-effect p-2"><span>Visión y Misión</span></Link>
-            <Link to="servicio" className="text-white mx-3 link-effect p-2"><span>Servicios</span></Link>
+            <NavDropdown title="Servicios" className="text-white">
+            <Link to="servicio-civil" className="text-dark mx-3 link-effect p-2 d-block">Derecho Civil</Link>
+            <Link to="servicio-penal" className="text-dark  link-effect mx-3 p-2 d-block">Derecho Penal</Link>
+            <Link to="servicio-notarial" className="text-dark mx-3 link-effect p-2 d-block">Derecho Notarial</Link>
+            <Link to="servicio-registral" className="text-dark mx-3 link-effect p-2 d-block">Derecho Registral</Link>
+            <Link to="servicio-corporativo" className="text-dark mx-3 link-effect p-2 d-block">Derecho Corporativo</Link>
+            <Link to="servicio-inmobiliario" className="text-dark mx-3 link-effect p-2 d-block">Derecho Inmobiliario</Link>  
+            </NavDropdown>
             <Link to="contacto" className="text-white mx-3 link-effect p-2"><span>Contacto</span></Link>
           </Nav>
         </Navbar.Collapse>

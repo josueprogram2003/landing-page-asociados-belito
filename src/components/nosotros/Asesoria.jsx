@@ -6,27 +6,29 @@ const Asesoria = () => {
   return (
     <div>
       <div className="w-100 curve" style={{zIndex:"-1" }}>
-        <svg width="100%" height="253" viewBox="0 0 1920 253" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M2135.87 247.252C1831.5 247.252 1594.77 247.252 886.5 247.252C178.231 247.252 -431 268.5 -431 226.5C-431 105.137 -362.003 -21.3152 973.928 138.076C1772.65 233.373 2846.33 -292.067 2135.87 247.252Z" fill="#2C3941"/>
+      <div style={{ height: '150px', overflow: 'hidden' }}>
+        <svg viewBox="0 0 500 150" preserveAspectRatio="none" style={{ height: '100%', width: '100%' }}>
+          <path d="M-1.46,22.14 C391.87,145.16 332.05,-16.23 504.73,34.93 L500.00,149.60 L-0.00,149.60 Z" style={{ stroke: 'none', fill: '#2C3941' }} />
         </svg>
       </div>
+      </div>
       <section className="container-asesoria p-5">
-        <article className="d-flex">
-          <div className='w-50 d-flex flex-column align-items-start '>
+        <article className="d-flex flex-column flex-lg-row">
+          <div className='w-100 w-lg-50 d-flex flex-column align-items-start ' data-aos="flip-right">
             <h3 className="text-white fs-1 title-asesoria">Asesoria especializada</h3>
-            <div className='w-75'>
+            <div className='w-lg-75 w-100'>
               <p className="text-white fs-5 mt-5" style={{textAlign:"justify"}}>
               Hemos   asesorado a más de 2000 clientes en el sector industrial, transporte, comercio, textil, alimentario, salud, agrario y servicios generales, desde la constitución de empresas, modificaciones de estatuto y reorganización de sociedad con la finalidad de seguir creando alianzas estratégicas comerciales en los emprendimientos peruanos. 
               </p>
             </div>
           </div>
-          <div className='w-50' style={{height:"400px"}}>
+          <div className='w-100 ms-lg-5 ms-0 d-none d-md-block' style={{height:"400px"}} data-aos="flip-right">
             <img src={asesoria} alt="" />
           </div>
         </article>
       </section>
-      <div style={{backgroundColor:"#2C3941"}} className='d-flex pt-5 justify-content-evenly card-asesoria' >
-        <div className='bg-white w-25 p-5 shadow' data-aos="flip-right">
+      <div style={{backgroundColor:"#2C3941"}} className=' row d-flex pt-5 justify-content-evenly card-asesoria flex-column flex-lg-row w-100 m-0' >
+        <div className='bg-white col-lg-3 col-10 p-5 shadow mx-auto mb-5 m-md-0' data-aos="flip-right">
           <header className='text-center'>
               {/* icon */}
               <svg enableBackground="new 0 0 30 30" height="80px" id="Capa_1" version="1.1" viewBox="0 0 30 30" width="80px" ><path d="M23,12.7c-0.4,0.1-0.6,0.6-0.4,1c0.5,1.2,0.7,2.5,0.7,3.8c0,6-4.9,10.8-10.8,10.8S1.7,23.5,1.7,17.5  S6.5,6.7,12.5,6.7c1.1,0,2.3,0.2,3.4,0.5c0.4,0.1,0.8-0.1,0.9-0.5c0.1-0.4-0.1-0.8-0.5-0.9c-1.2-0.4-2.5-0.6-3.8-0.6  c-6.8,0-12.3,5.5-12.3,12.3s5.5,12.3,12.3,12.3s12.3-5.5,12.3-12.3c0-1.5-0.3-3-0.8-4.4C23.9,12.8,23.4,12.6,23,12.7z M12.5,15  c0.4,0,0.8-0.3,0.8-0.8s-0.3-0.8-0.8-0.8c-2.2,0-4,1.8-4,4c0,2.2,1.8,4,4,4s4-1.8,4-4c0-0.4-0.3-0.8-0.8-0.8S15,17.1,15,17.5  c0,1.4-1.1,2.5-2.5,2.5S10,18.9,10,17.5C10,16.1,11.1,15,12.5,15z M16.2,11.1c0.2-0.4,0-0.8-0.4-1c-1-0.5-2.2-0.7-3.3-0.7  C8,9.4,4.3,13,4.3,17.5s3.7,8.2,8.2,8.2s8.2-3.7,8.2-8.2c0-1.2-0.2-2.3-0.7-3.3c-0.2-0.4-0.6-0.6-1-0.4c-0.4,0.2-0.5,0.6-0.4,1  c0.4,0.9,0.6,1.8,0.6,2.7c0,3.7-3,6.7-6.7,6.7s-6.7-3-6.7-6.7s3-6.7,6.7-6.7c1,0,1.9,0.2,2.7,0.6C15.6,11.6,16,11.4,16.2,11.1z   M29.8,6.1c-0.1-0.3-0.3-0.5-0.6-0.5l-4.1-0.7l-0.7-4.1c0-0.3-0.2-0.5-0.5-0.6c-0.3-0.1-0.6,0-0.8,0.2l-4.9,4.9  c-0.2,0.2-0.3,0.4-0.2,0.7l0.8,4.2l-6.3,6.3c0,0-0.1,0-0.1,0c-0.6,0-1.1,0.5-1.1,1.1s0.5,1.1,1.1,1.1c0.6,0,1.1-0.5,1.1-1.1  c0,0,0,0,0,0l6.4-6.4l4.1,0.8c0,0,0.1,0,0.1,0c0.2,0,0.4-0.1,0.5-0.2l4.9-4.9C29.8,6.7,29.9,6.4,29.8,6.1z M19.6,6l3.6-3.6l0.5,2.8  l-3.5,3.5L19.6,6z M24,10.4l-2.7-0.5l3.5-3.5l2.7,0.5L24,10.4z" fill="#2C3941"/></svg>
@@ -40,7 +42,7 @@ const Asesoria = () => {
               </p>
             </main>
         </div>
-        <div className='bg-white w-25 p-5 shadow' data-aos="flip-right">
+        <div className='bg-white col-lg-3 col-10 p-5 shadow mx-auto mb-5 m-md-0' data-aos="flip-right">
           <header className='text-center'>
               {/* icon */}
               <svg width="85" height="85" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -57,7 +59,7 @@ const Asesoria = () => {
               </p>
             </main>
         </div>
-        <div className='bg-white w-25 p-5 shadow' data-aos="flip-right">
+        <div className='bg-white col-lg-3 col-10 p-5 shadow mx-auto m-md-0' data-aos="flip-right">
           <header className='text-center'>
               {/* icon */}
               <svg width="85" height="85" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
