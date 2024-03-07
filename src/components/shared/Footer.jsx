@@ -18,7 +18,7 @@ const Footer = () => {
                 </svg>
               </div>
               <div className="d-flex">
-                <p className="text-white fw-bold m-0 mx-3">Email: </p>
+                <p className="text-white fw-bold m-0 mx-3">Correo: </p>
                 <p className="text-white m-0">belitoasociados@gmail.com</p>
               </div>
             </div>
