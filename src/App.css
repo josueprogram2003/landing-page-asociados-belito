@@ -824,3 +824,25 @@ img{
 
 }
 
+@media  screen and (max-height:700px) {
+    .icon-wall{
+      width: 100px !important;
+      height: 100px !important;
+    }
+
+    .title-general{
+      font-size: 2.2rem !important;
+    }
+
+    .info-inicio{
+      margin-top: 40px !important;
+    }
+
+    .border-golden{
+      margin-top: 3rem !important;
+    }
+
+    .main-inicio{
+      margin-top: 7rem !important;
+    }
+}

@@ -5,8 +5,8 @@ const Header = () => {
     <div className="d-flex flex-column  juridico" > 
       <div className="px-3 py-4 border-golden">
         <header className="pe-5">
-          <h1 className="text-white text-uppercase fw-bold">Estudio Jurídico</h1>
-          <h1 className="text-white text-uppercase fw-bold"><span className="title--golden">Belito</span> & <span className="title--golden">Asociados</span></h1>
+          <h1 className="text-white text-uppercase fw-bold title-general">Estudio Jurídico</h1>
+          <h1 className="text-white text-uppercase fw-bold title-general"><span className="title--golden">Belito</span> & <span className="title--golden">Asociados</span></h1>
         </header>
       </div>
       <div className="info-inicio">
