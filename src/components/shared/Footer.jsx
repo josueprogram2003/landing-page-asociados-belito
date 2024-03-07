@@ -2,7 +2,7 @@ import imagen from '../../assets/imagen-2.png'
 const Footer = () => {
   return (
     <footer>
-      <main className="bg-landing p-5">
+      <main className="bg-landing p-2 p-sm-5">
         <div className='d-flex justify-content-between align-items-center flex-column flex-lg-row'>
             {/* imagen */}
           <div style={{width:"180px", height:"180px"}}>
