@@ -8,7 +8,7 @@ import Footer from '../shared/Footer'
 const InicioMain = () => {
   return (
     <div className='container-landing w-100'>
-      <div className='w-100 wall'>
+      <div className='w-100 wall pb-5 pb-0'>
         <div style={{position:"relative" , zIndex:"9" , paddingTop:"150px" , height:"100%"}}>
           <Header/>
           <InfoInicio/>
