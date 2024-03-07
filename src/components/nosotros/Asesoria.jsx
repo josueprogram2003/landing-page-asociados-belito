@@ -67,7 +67,7 @@ const Asesoria = () => {
               </svg>
 
               <div className='w-100'>
-                <h4 style={{textAlign:"left"}} className='mt-5 color-primary fw-bold fs-2'>Objetivo</h4>
+                <h4 style={{textAlign:"left"}} className='mt-5 color-primary fw-bold fs-2'>Servicios</h4>
               </div>
             </header>
             <main>
