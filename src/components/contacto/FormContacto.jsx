@@ -23,7 +23,7 @@ const FormContacto = () => {
       notifyInfo();
     }else{
       try {
-        await emailjs.send("service_wq8fdyn","template_wjz6jz8",{
+        await emailjs.send("service_c7e0w96","template_rlaq9pi",{
           nombres: name,
           servicio: service,
           caso: caso,

@@ -12,7 +12,7 @@ function App() {
     AOS.init()
   })
   emailjs.init({
-    publicKey: 'b9QNRj47fN85cPldM',
+    publicKey: 'Gi9-8bKGpqXKtZ7rL',
   });
 
   return (

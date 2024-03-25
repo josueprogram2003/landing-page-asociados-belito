@@ -19,7 +19,7 @@ const Contactanos = () => {
       notifyInfo();
     }else{
       try {
-        await emailjs.send("service_wq8fdyn","template_wjz6jz8",{
+        await emailjs.send("service_c7e0w96","template_85kq0ww",{
           nombres: name,
           caso: caso,
           numero: number,
