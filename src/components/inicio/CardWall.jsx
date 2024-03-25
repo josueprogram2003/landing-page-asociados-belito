@@ -14,7 +14,7 @@ const CardWall = () => {
         </header>
         <main>
           <p className="describe-card">
-            Brindamos soporte y defensa legal de calidad a empresas y personas naturales en diversos proyectos innovadores a un soto flexible y menor tiempo de ejecución.
+            Brindamos soporte y defensa legal de calidad a empresas y personas naturales en diversos proyectos innovadores a un costo flexible y menor tiempo de ejecución.
           </p>
         </main>
         <footer className="d-flex justify-content-end">
@@ -62,7 +62,7 @@ const CardWall = () => {
         </header>
         <main>
           <p className="describe-card">
-          Optimizar los procedimientos notariales, registrales, inmobiliarios y administrativos a nivel nacional.
+          Crear alianzas con socios estratégicos comerciales, para brindar un servicio integral desde una perspectiva civil, procesal y administrativo.
           </p>
         </main>
         <footer className="d-flex justify-content-end" style={{position:"absolute",bottom:"20px", right:"20px"}}>

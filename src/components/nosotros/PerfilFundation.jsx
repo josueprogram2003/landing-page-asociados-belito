@@ -1,4 +1,4 @@
-import ida from '../../assets/ida.png'
+import ida from '../../assets/idaBG.png'
 const PerfilFundation = () => {
   return (
     <div className="bg-white py-5 row d-flex align-items-center justify-content-center flex-column flex-md-row m-0" >

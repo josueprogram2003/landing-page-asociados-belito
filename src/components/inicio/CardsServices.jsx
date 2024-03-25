@@ -16,7 +16,7 @@ const CardsServices = () => {
       imagen: civil,
       descripcion: [
         {
-          desc2: '*Preescripción adquisitiva de dominio    notarial y judicial.',
+          desc2: '*Prescripción adquisitiva de dominio    notarial y judicial.',
           desc3: '*Resolución de contratos.',
           desc4: '*Indemnización por daños y prejuicios',
         }

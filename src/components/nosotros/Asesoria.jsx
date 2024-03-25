@@ -1,4 +1,4 @@
-import asesoria from '../../assets/asesoria.jpg'
+import civil from '../../assets/civil.jpg'
 //import objetivo from '../../assets/objetivo.svg'
 
 const Asesoria = () => {
@@ -15,7 +15,7 @@ const Asesoria = () => {
       <section className="container-asesoria p-5">
         <article className="d-flex flex-column flex-lg-row">
           <div className='w-100 w-lg-50 d-flex flex-column align-items-start ' data-aos="flip-right">
-            <h3 className="text-white fs-1 title-asesoria">Asesoria especializada</h3>
+            <h3 className="text-white fs-1 title-asesoria">Asesoría especializada</h3>
             <div className='w-lg-75 w-100'>
               <p className="text-white fs-5 mt-5" style={{textAlign:"justify"}}>
               Hemos   asesorado a más de 2000 clientes en el sector industrial, transporte, comercio, textil, alimentario, salud, agrario y servicios generales, desde la constitución de empresas, modificaciones de estatuto y reorganización de sociedad con la finalidad de seguir creando alianzas estratégicas comerciales en los emprendimientos peruanos. 
@@ -23,7 +23,7 @@ const Asesoria = () => {
             </div>
           </div>
           <div className='w-100 ms-lg-5 ms-0 d-none d-md-block' style={{height:"400px"}} data-aos="flip-right">
-            <img src={asesoria} alt="" />
+            <img src={civil} alt="" />
           </div>
         </article>
       </section>
@@ -55,7 +55,7 @@ const Asesoria = () => {
             </header>
             <main>
               <p className='color-primary fs-5 mt-5' style={{textAlign:"justify"}}>
-              En asuntos notariales y registrales, absolviendo consultas legales, redacción de minutas, redacción de contratos, redacción de actas juntas, etc.
+              Contamos con más de 10 años de experiencia en diversas áreas del sector civil, penal y administrativo.
               </p>
             </main>
         </div>
@@ -72,22 +72,22 @@ const Asesoria = () => {
             </header>
             <main>
               <p className='color-primary fs-5 m-0 mt-5' style={{textAlign:"justify"}}>
-              Derecho civil
+              Derecho Civil
               </p>
               <p className='color-primary fs-5 m-0' style={{textAlign:"justify"}}>
-              Derecho penal
+              Derecho Penal
               </p>
               <p className='color-primary fs-5 m-0' style={{textAlign:"justify"}}>
-              Derecho registral
+              Derecho Registral
               </p>
               <p className='color-primary fs-5 m-0' style={{textAlign:"justify"}}>
-              Derecho notarial
+              Derecho Notarial
               </p>
               <p className='color-primary fs-5 m-0' style={{textAlign:"justify"}}>
-              Derecho inmobiliario
+              Derecho Inmobiliario
               </p>
               <p className='color-primary fs-5 m-0' style={{textAlign:"justify"}}>
-              Derecho corporativo
+              Derecho Corporativo
               </p>
             </main>
         </div>
