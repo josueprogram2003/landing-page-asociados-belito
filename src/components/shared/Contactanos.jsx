@@ -58,7 +58,7 @@ const Contactanos = () => {
       <div className='contact__form'>
         <form className='py-3 px-2' >
           <div>
-            <h3 className='text-uppercase text-center fs-1 text-customise fw-bolder'>Contactanos</h3>
+            <h3 className='text-uppercase text-center fs-1 text-customise fw-bolder'>Contáctanos</h3>
             <p className='text-center fs-5 text-customise'>Si tienes alguna consulta, déjanos tus datos para poder contactarnos</p>
           </div>
           <section className='w-100 d-flex flex-column align-items-center'>
