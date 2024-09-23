@@ -64,7 +64,7 @@ const FormContacto = () => {
       />
       <div className='p-0 row justify-content-center mb-3'>
         <div className='col-11 px-lg-4'>
-            <h3 className='text-uppercase text-lg-start text-center fs-1 text-customise fw-bolder'>Contactanos</h3>
+            <h3 className='text-uppercase text-lg-start text-center fs-1 text-customise fw-bolder'>Contáctanos</h3>
             <p className='text-lg-start text-center fs-5 text-customise'>Si tienes alguna consulta, déjanos tus datos para poder contactarnos</p>
         </div>
       </div>
