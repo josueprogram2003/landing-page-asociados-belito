@@ -12,13 +12,13 @@ const BodyServicios = ({info}) => {
       </header>
       <main className='pt-5 d-flex service-container flex-column flex-lg-row row m-0'>
        <div className='service-desc fs-5 px-4 d-flex justify-content-center flex-column col-lg-7 col-12'>
-        <p className='fw-bold color-primary' style={{textAlign:"justify"}}>{info.descripcion}</p>
-        <p className='fw-bold color-primary'>{info.paragraph}</p>
+        <p className='color-primary' style={{textAlign:"justify"}}>{info.descripcion}</p>
+        <p className=' color-primary'>{info.paragraph}</p>
         <ul>
             {
               info.items.map((element,index)=>{
                 return (
-                  <li className='fw-bold color-primary' key={index}>{Object.values(element)[0]}</li>
+                  <li className=' color-primary' key={index}>{Object.values(element)[0]}</li>
                 )
               })
             }

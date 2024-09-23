@@ -1,9 +1,10 @@
 import civil from '../../assets/civil.jpg'
-import registral from '../../assets/registral.jpg'
+// import registral from '../../assets/registral.jpg'
 import penal from '../../assets/penal.jpg'
 import notarial from '../../assets/notarial.jpg'
 import inmobiliario from '../../assets/inmobiliario.jpg'
-import corporativo from '../../assets/coorporativo.jpg'
+import corporativo_2 from '../../assets/corporativo_2.jpg'
+import registral_2 from '../../assets/registral_3.jpg'
 import { Link } from 'react-router-dom'
 
 
@@ -18,7 +19,7 @@ const CardsServices = () => {
         {
           desc2: '*Prescripción adquisitiva de dominio    notarial y judicial.',
           desc3: '*Resolución de contratos.',
-          desc4: '*Indemnización por daños y prejuicios',
+          desc4: '*Indemnización por daños y perjuicios',
         }
       ]
     },
@@ -51,7 +52,7 @@ const CardsServices = () => {
     {
       nombre: 'REGISTRAL',
       url:"/servicio-registral",
-      imagen: registral,
+      imagen: registral_2,
       descripcion: [
         {
           desc1: '*Estudio de títulos archivados.',
@@ -62,7 +63,7 @@ const CardsServices = () => {
     },
     {
       nombre: 'CORPORATIVO',
-      imagen: corporativo,
+      imagen: corporativo_2,
       url:"/servicio-corporativo",
       descripcion: [
         {

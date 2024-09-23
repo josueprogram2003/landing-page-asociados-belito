@@ -24,6 +24,7 @@ const NavBar = () => {
             <Link to="servicio-inmobiliario" className="text-dark mx-3 link-effect p-2 d-block">Derecho Inmobiliario</Link>  
             </NavDropdown>
             <Link to="contacto" className="text-white mx-3 link-effect p-2"><span>Contacto</span></Link>
+            <Link to="contacto" className="text-white mx-3 link--button p-2"><span>Brochure</span></Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

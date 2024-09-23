@@ -19,7 +19,7 @@ const Footer = () => {
               </div>
               <div className="d-flex">
                 <p className="text-white fw-bold m-0 mx-3">Correo: </p>
-                <p className="text-white m-0">belitoasociados@gmail.com</p>
+                <p className="text-white m-0">legal@belitoasociados.com</p>
               </div>
             </div>
             {/* WhatsApp: */}
@@ -31,7 +31,7 @@ const Footer = () => {
               </div>
               <div className="d-flex">
                 <p className="text-white fw-bold m-0 mx-3">WhatsApp: </p>
-                <p className="text-white m-0">+51 997663026</p>
+                <p className="text-white m-0">+51 989 599 906</p>
               </div>
             </div>
             {/* direccion */}
@@ -44,13 +44,13 @@ const Footer = () => {
               </div>
               <div className="d-flex">
                 <p className="text-white fw-bold m-0 mx-3">Dirección:</p>
-                <p className="text-white m-0">Calle San Pedro 174 - Santa Anita</p>
+                <p className="text-white m-0">Av. Circunvalación Golf Los Inkas 208 Of. 602-B, Surco</p>
               </div>
             </div>
           </div>
             {/* mapa */}
           <div className='container-maps'>
-            <iframe
+            {/* <iframe
             src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d243.8845024775094!2d-76.9484276662764!3d-12.033052046815115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2spe!4v1709563930020!5m2!1ses!2spe"
             width="100%"
             height="100%"
@@ -58,7 +58,8 @@ const Footer = () => {
             allowFullScreen=""
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
-            ></iframe>
+            ></iframe> */}
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d858.0940660420914!2d-76.96724398283278!3d-12.080743507774205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c6ff58810593%3A0xc81511ec9f263878!2sAv.%20Circunvalaci%C3%B3n%20del%20Golf%20los%20Incas%20208%2C%20Santiago%20de%20Surco%2015023!5e0!3m2!1ses!2spe!4v1727057323211!5m2!1ses!2spe" width="100%" height="100%" allowfullscreen="" style={{ border: '0' }}  loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
           </div>
         </div>
         <div className="d-flex justify-content-center mt-5">

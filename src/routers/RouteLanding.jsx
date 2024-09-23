@@ -6,35 +6,37 @@ import NosotrosMain from "../components/nosotros/NosotrosMain"
 import Servicio from "../components/servicios/Servicio"
 import MisionVision from '../components/mision-vision/MisionVision'
 import civil from '../assets/civil.jpg'
-import registral from '../assets/registral.jpg'
+import corporativo_2 from '../assets/corporativo_2.jpg'
+import registral_2 from '../assets/registral_3.jpg'
 import penal from '../assets/penal.jpg'
 import notarial from '../assets/notarial.jpg'
 import inmobiliario from '../assets/inmobiliario.jpg'
-import corporativo from '../assets/coorporativo.jpg'
+
+
 const RouteLanding = () => {
   const data =[
     {
-      title: "Derecho Civil", img:civil,descripcion: "En este campo te ofrece un servicio integralde asesoría y patrocinio relacionado en el ámbito derecho procesal civil ylitigación que versan de procesos civiles concernientes con propiedades,contratos e indemnizaciones.",
+      title: "Derecho Civil", img:civil,descripcion: "En este campo te ofrecemos un servicio integral de asesoría y patrocinio relacionado en el ámbito derecho procesal civil y litigación que versan de procesos civiles concernientes con propiedades, contratos e indemnizaciones.",
     paragraph: "Entre los temas que trabajamos se encuentran:",items:[
-      {1:"Desalojos, mejor derecho depropiedad, interdicto de recobrar y reivindicación."},
+      {1:"Desalojos, mejor derecho de propiedad, interdicto de recobrar y reinvindicación."},
       {2:"Prescripción adquisitiva de dominio notarial y judicial.",},
-      {3:"Resolución de contratos, nulidade ineficacia de acto jurídico.",},
-      {4:"Sucesión intestada, partición de herencia y petición de herencia."},
+      {3:"Resolución de contratos, nulidad e ineficacia de acto jurídico.",},
+      {4:"Sucesión intestada, anticipo de herencia y petición de herencia."},
       {5:"Rectificaciones de partidas."},
       {6:"Indemnizaciones por daños y perjuicios, lucro cesante, daño emergente y daño moral."}
     ]},
     {
-      title: "Derecho Penal", img:penal,descripcion: "En este campo te ofrece un servicio integral de asesoría, consultoría y patrocinio de estrategias para las defensas penales y salvaguardar los bienes jurídicos protegidos.",
+      title: "Derecho Penal", img:penal,descripcion: "En este campo te ofrecemos un servicio integral de asesoría, consultoría y patrocinio de estrategias para las defensas penales y salvaguardar los bienes jurídicos protegidos.",
     paragraph: "Entre los temas que trabajamos se encuentran:",items:[
-      {1:"Delitos patrimoniales: hurto, robo, estafa, apropiación ilícita y usurpación"},
-      {2:"Delitos contra el cuerpo y la salud: lesiones, homicidio culposo y homicidio calificado",},
+      {1:"Delitos patrimoniales: hurto, robo, estafa, apropiación ilícita y usurpación."},
+      {2:"Delitos contra el cuerpo y la salud: lesiones, homicidio culposo y homicidio calificado.",},
       {3:"Delitos contra la fe pública: falsificación de documentos y sellos, timbres y marcas oficiales.",},
-      {4:"Delitos contra el honor: injuria, difamación, calumnia"}
+      {4:"Delitos contra el honor: injuria, difamación, calumnia."}
     ]},
     {
       title:"Derecho Notarial",
       img:notarial ,
-      descripcion:"En este campo te ofrece los servicios relacionados con la gestión, y planificación patrimonial de transferencia de bienes muebles en inmuebles, desde una perspectiva de índole personal y/o familiar. Asimismo, se brinda la asesoría de elaboración de minutas de representación procesal para diversas entidades privadas, públicas e internacional.",
+      descripcion:"En este campo te ofrecemos los servicios relacionados con la gestión y planificación patrimonial de transferencia de bienes muebles en inmuebles, desde una perspectiva de índole personal y/o familiar. Asimismo, se brinda la asesoría de elaboración de minutas de representación procesal para diversas entidades privadas, públicas e internacional.",
       paragraph: "Entre los temas que trabajamos se encuentran:",
       items:[
         {1:"Poder procesal"},
@@ -42,24 +44,24 @@ const RouteLanding = () => {
         {3:"Poder para amplio y general",},
         {4:"Poder consular"},
         {5:"Testamento"},
-        {6:"Separación de Patrimonio"},
+        {6:"Separación de patrimonio"},
         {7:"Rectificación de calidad de bien"},
-        {8:"Anticipo de Legitima"},
+        {8:"Anticipo de legítima"},
         {9:"Donación de propiedades"},
         {10:"Constitución de patrimonio familiar"},
         {11:"Redacción de minutas de constitución de empresa"},
         {12:"Redacción de minutas de transferencia de propiedad"},
         {13:"Sucesión intestada"},
         {14:"Rectificación de partidas inscritas en el Registro Civil"},
-        {15:"Union de Hecho"},
-        {16:"Divorcio Notarial"},
-        {17:"Gestión de tramites notariales"},
+        {15:"Unión de hecho"},
+        {16:"Divorcio notarial"},
+        {17:"Gestión de trámites notariales"},
       ]
     },
     {
       title:"Derecho Registral",
-      img: registral,
-      descripcion:"En este campo te ofrece los servicios relacionados con la asesoría integral, desde la redacción, revisión, formulación y gestión de tramites notariales, en procesos no contenciosas en sede notarial. Asimismo se brinda el servicio de asesoría registral, gestiones ante Sunarp y registro correspondiente de publicidad registral.",
+      img: registral_2,
+      descripcion:"En este campo te ofrecemos los servicios relacionados con la asesoría integral, desde la redacción, revisión, formulación y gestión de trámites notariales, en procesos no contenciosos en sede notarial. Asimismo, se brinda el servicio de asesoría registral, gestiones ante Sunarp y registro correspondiente de publicidad registral.",
       paragraph: "Entre los temas que trabajamos se encuentran:",
       items:[
         {1:"Estudio de títulos archivados"},
@@ -70,26 +72,26 @@ const RouteLanding = () => {
     },
     {
       title:"Derecho Corporativo",
-      img: corporativo,
-      descripcion:"En este campo te ofrece los servicios relacionados con la constitución y modificación de estatuto de sociedades y reorganización empresarial, asesoría integral desde la perspectiva comercial y tributaria.",
+      img: corporativo_2,
+      descripcion:"En este campo te ofrecemos los servicios relacionados con la constitución y modificación de estatuto de sociedades y reorganización empresarial, asesoría integral desde la perspectiva comercial y tributaria.",
       paragraph: "Entre los temas que trabajamos se encuentran:",
       items:[
         {1:"Aumento de capital"},
         {2:"Acuerdos de accionistas y socios",},
         {3:"Constitución de sociedades (E.I.R.L / S.A.C / S.R.L / SA.)",},
         {4:"Constitución de asociaciones"},
-        {5:"Modificación de Estatutos y reformas estatutarias"},
+        {5:"Modificación de estatutos y reformas estatutarias"},
         {6:"Transformación de sociedades"},
         {7:"Reorganizaciones empresariales"},
         {8:"Recomposiciones accionarias"},
-        {9:"Renuncia y Nombramiento de cargos"},
-        {10:"Transferencia de acciones y particiones"},
+        {9:"Renuncia y nombramiento de cargos"},
+        {10:"Transferencia de acciones y participaciones"},
       ]
     },
     {
       title:"Derecho Inmobiliario",
       img: inmobiliario,
-      descripcion:"En este campo te ofrece los servicios relacionados con las diversas modalidades de transferencia de bienes inmuebles, operaciones de compraventa, asesoría integral desde la perspectiva comercial y financiera. Asimismo, saneamiento físico legal, otorgando soluciones viables y eficaces.",
+      descripcion:"En este campo te ofrecemos los servicios relacionados con las diversas modalidades de transferencia de bienes inmuebles, operaciones de compraventa, asesoría integral desde la perspectiva comercial y financiera. Asimismo, saneamiento físico legal, otorgando soluciones viables y eficaces.",
       paragraph: "Entre los temas que trabajamos se encuentran:",
       items:[
         {1:"Arrendamiento"},

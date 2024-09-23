@@ -11,10 +11,10 @@ const Body = () => {
       </header>
       <main className="col-10 col-md-6 py-5 px-lg-5 px-4 mb-5" style={{borderLeft:"4px solid #98722E"}}>
         <p className="color-primary text-body-main">
-        Contamos con una amplia experiencia en rubro notarial, registral, inmobiliario coporativo y administrativo. Asimismo, absolvemos consultas legales, redacción de minutos, redacción de contratos, redacción de documentos administrativos, redacción de actas juntas general, directorio, asambleas para todo tipo de empresas, entre otros. Además, brindamos respaldo legal en el derecho administrativo y proceso conciliatorio.
+        Contamos con una amplia experiencia en rubro notarial, registral, inmobiliario corporativo y administrativo. Asimismo, absolvemos consultas legales, redacción de minutas, redacción de contratos, redacción de documentos administrativos, redacción de actas juntas general, directorio, asambleas para todo tipo de empresas, entre otros. Además, brindamos respaldo legal en el derecho administrativo y proceso conciliatorio.
         </p>
         <p className="color-primary text-body-main">
-        Hemos   asesorado a más de 2000 clientes en el sector industrial, transporte, comercio, textil, alimentario, salud, agrario y servicios generales, desde la constitución de empresas, modificaciones de estatuto y reorganización de sociedad con la finalidad de seguir creando alianzas estratégicas comerciales en los emprendimientos peruanos. 
+        Hemos   asesorado a más de 2,000 clientes en el sector industrial, transporte, comercio, textil, alimentario, salud, agrario y servicios generales, desde la constitución de empresas, modificaciones de estatuto y reorganización de sociedad con la finalidad de seguir creando alianzas estratégicas comerciales en los emprendimientos peruanos. 
         </p>
       </main>
     </section>

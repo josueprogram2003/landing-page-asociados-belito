@@ -18,7 +18,7 @@ const Asesoria = () => {
             <h3 className="text-white fs-1 title-asesoria">Asesoría especializada</h3>
             <div className='w-lg-75 w-100'>
               <p className="text-white fs-5 mt-5" style={{textAlign:"justify"}}>
-              Hemos   asesorado a más de 2000 clientes en el sector industrial, transporte, comercio, textil, alimentario, salud, agrario y servicios generales, desde la constitución de empresas, modificaciones de estatuto y reorganización de sociedad con la finalidad de seguir creando alianzas estratégicas comerciales en los emprendimientos peruanos. 
+              Hemos   asesorado a más de 2,000 clientes en el sector industrial, transporte, comercio, textil, alimentario, salud, agrario y servicios generales, desde la constitución de empresas, modificaciones de estatuto y reorganización de sociedad con la finalidad de seguir creando alianzas estratégicas comerciales en los emprendimientos peruanos. 
               </p>
             </div>
           </div>

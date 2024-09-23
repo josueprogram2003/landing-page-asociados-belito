@@ -9,14 +9,14 @@ const Anuncio = () => {
         <img src={anuncio} alt="" className="w-100 h-100"/>
       </div>
       <div className="anuncio__description w-100 h-100 d-flex flex-column align-items-center justify-content-center">
-        <p className="fs-1 text-center w-75 fw-bold text-white">ASESORÍA ESPECIALIZADA PARA EL SERVICIO INTEGRAL DE PATROCINIO LEGAL PARA EMPRESAS Y PERSONAS.</p>
+        <p className="fs-1 w-75 fw-bold text-white" style={{textAlign:"justify"}}>SOMOS TUS MEJORES ALIADOS PARA BRINDARTE ASESORÍA LEGAL INTEGRAL Y SIMPLIFICAR TUS PROCESOS EN DIVERSAS RAMAS DEL DERECHO</p>
         <Link to="/contacto" className="link-button py-3 px-5 text-white fw-bold mt-5">Conversemos</Link>
       </div>
     </section>
     <section className="d-flex flex-column flex-lg-row py-5 h-100 my-5 justify-content-center p-lg-0 px-sm-2 px-4 row m-0">
       <div className="col-lg-5 col-12 d-flex flex-column align-items-start justify-content-center ms-lg-5 " data-aos="flip-left">
           <header className="container-title mb-5 w-100">
-            <h3 className="fw-bolder  asesoria-title">ASESORIA LEGAL EN EL RUBRO INMOBILIARIO, NOTARIAL Y REGISTRAL.</h3>
+            <h3 className="fw-bolder  asesoria-title">ASESORÍA LEGAL EN EL RUBRO INMOBILIARIO</h3>
           </header>
           <p className="w-100 asesoria-title asesoria-title--spacing fs-5 mt-3">
           Brindamos asesoría integral y patrocinio de estrategias jurídicas desde la revisión hasta culminar el procedimiento inscrito en <span className="fw-bold">SUNARP</span>.
@@ -32,8 +32,8 @@ const Anuncio = () => {
             <div className="describe w-75">
               <span className="fw-bolder fs-4">Registral</span>
               <div className="describe__paragrapgh ">
-                <p className="m-0 ">Estudio de asientos registrales</p>
-                <p className="m-0 ">Subsanación de títulos observados</p>
+                <p className="m-0 ">- Estudio de asientos registrales</p>
+                <p className="m-0 ">- Subsanación de títulos observados</p>
               </div>
             </div>
         </article>
@@ -46,8 +46,8 @@ const Anuncio = () => {
             <div className="describe w-75">
               <span className="fw-bolder fs-4">Notarial</span>
               <div className="describe__paragrapgh ">
-                <p className="m-0 ">Elaboración de minutas y actas</p>
-                <p className="m-0 ">Gestión Notarial</p>
+                <p className="m-0 ">- Elaboración de minutas y actas</p>
+                <p className="m-0 ">- Gestión Notarial</p>
               </div>
             </div>
         </article>
@@ -60,7 +60,7 @@ const Anuncio = () => {
             <div className="describe w-75">
               <span className="fw-bolder fs-4">Inmobiliario</span>
               <div className="describe__paragrapgh ">
-                <p className="m-0 ">Saneamiento físico técnico legal</p>
+                <p className="m-0 ">- Saneamiento físico técnico legal</p>
               </div>
             </div>
         </article>
