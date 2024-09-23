@@ -542,7 +542,13 @@ img{
   position: relative;
 }
 
-
+.link--button{
+  background-color: #AA8646;
+  border-radius: 5px;
+  padding: 0px 10px;
+  display: inline-block;
+  text-decoration: none;
+}
 
 .mision-title::after{
   position: absolute;
