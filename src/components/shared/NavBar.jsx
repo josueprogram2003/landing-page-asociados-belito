@@ -1,5 +1,6 @@
 import { Container, Nav, NavDropdown, Navbar } from "react-bootstrap"
 import logo from  '../../assets/logo.png'
+import pdf from '../../assets/prueba.pdf'
 import { Link } from "react-router-dom"
 const NavBar = () => {
 
@@ -24,7 +25,7 @@ const NavBar = () => {
             <Link to="servicio-inmobiliario" className="text-dark mx-3 link-effect p-2 d-block">Derecho Inmobiliario</Link>  
             </NavDropdown>
             <Link to="contacto" className="text-white mx-3 link-effect p-2"><span>Contacto</span></Link>
-            <Link to="contacto" className="text-white mx-3 link--button py-2 px-4"><span>Brochure</span></Link>
+            <a href={pdf} download  className="text-white mx-3 link--button py-2 px-4"><span> <i className="fa-solid fa-download me-3"></i> Brochure</span></a>
           </Nav>
         </Navbar.Collapse>
       </Container>

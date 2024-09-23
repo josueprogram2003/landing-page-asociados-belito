@@ -550,6 +550,12 @@ img{
   text-decoration: none;
 }
 
+.link--button:hover{
+  cursor: pointer;
+  opacity: .8;
+  transition: all .5s ease-in-out;
+}
+
 .mision-title::after{
   position: absolute;
   content: "";
