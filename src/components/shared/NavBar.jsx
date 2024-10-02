@@ -1,6 +1,6 @@
 import { Container, Nav, NavDropdown, Navbar } from "react-bootstrap"
 import logo from  '../../assets/logo.png'
-import pdf from '../../assets/prueba.pdf'
+import pdf from '../../assets/Brochure.pdf'
 import { Link } from "react-router-dom"
 const NavBar = () => {
 
